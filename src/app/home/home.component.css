@@ -1,0 +1,83 @@
+body{
+  background-color: #222222;
+}
+#home {
+  color: #b19cd8;
+  height: 80vh;
+  background-color: #222222;
+  background-image: url("https://sscchan.github.io/img/FrontPageBackground.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  padding-top: 50px;
+}
+
+#about {
+  color:#72d1ce;
+}
+
+#about h1 {
+  color: #72d1ce;
+}
+
+#about h2{
+  color:#ffffff;
+}
+
+#aboutCompanionBox {
+  background-color:#0e8f8a;
+  min-height: 400px;
+  background-image: url("src/assets/technology.jpeg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 650px;
+  max-width: 45%;
+  position: relative;
+  left: 55%;
+  top: -10px;
+}
+
+#portfolio {
+  color: #b2c5ed;
+}
+
+#portfolio-left
+{
+  background-image: url("https://sscchan.github.io/img/portfolio_projects/Weather_Widget.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-width: 60%;
+  overflow: hidden;
+  max-height: 400px;
+}
+
+#portfolio h2 {
+  color:#fff;
+}
+
+h5 {
+  font-size: 14px;
+  color: #777777;
+  font-family: 'Open Sans', sans-serif;
+  line-height:20px;
+}
+
+.content{
+  position: relative;
+  right: -1%;
+  max-width: 50%;
+  max-height: 10px;
+
+}
+
+.text{
+  position: absolute;
+  text-align: right;
+  right: 10px;
+  top: 1000px;
+  max-height: 30%;
+}
+
+
+
+
