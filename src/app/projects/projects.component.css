@@ -58,6 +58,54 @@ span {
   background-image: url("src/assets/caroussel/code.jpeg");
   transform: rotateY(320deg) translateZ(430px); }
 
+.content-left{
+  max-height: 400px;
+  position: absolute;
+  top: 100%;
+  width: 50%;
+  height: 45%;
+}
+
+.fst-title{
+  font-family: "Monrserrat", sans-serif;
+  font-size: 3rem;
+  margin-left: 5%;
+}
+
+.scn-title{
+  font-family: "Monrserrat", sans-serif;
+  font-weight: 300;
+  font-size: 3rem;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.content{
+  max-height: 400px;
+  position: absolute;
+  top: 100%;
+  left: 48%;
+  width: 50%;
+  height: 45%;
+  float: right;
+}
+
+p {
+  text-align: left;
+  font-family: "Monrserrat", sans-serif;
+  font-size: 0.9rem;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+.title{
+  font-family: "Monrserrat", sans-serif;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-left: 4%;
+}
+
 
 
 @keyframes rotate360 {
