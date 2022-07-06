@@ -1,0 +1,26 @@
+.test{
+  background-image: url("src/assets/aboutbg.jpeg");
+  height: 600px;
+  position: relative;
+}
+
+.title{
+  font-family: "Monrserrat", sans-serif;
+  font-weight: 500;
+  color: lightgrey;
+  font-size: 2rem;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 40%;
+}
+
+.content{
+  font-family: "Monrserrat", sans-serif;
+  color: lightgrey;
+  position: absolute;
+  left: 32%;
+  top: 15%;
+  text-combine: 20;
+  max-width: 40%;
+  text-align: left;
+}
