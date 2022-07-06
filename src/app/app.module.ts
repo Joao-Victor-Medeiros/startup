@@ -11,6 +11,7 @@ import {RouterModule} from "@angular/router";
 import { CodingComponent } from './services/coding/coding.component';
 import { DeployComponent } from './services/deploy/deploy.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ProjectsComponent } from './projects/projects.component';
     CodingComponent,
     DeployComponent,
     ProjectsComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
