@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import {about, home, logo, projects} from "./navbar/navbar.route";
+import {about, contractus, home, logo, projects} from "./navbar/navbar.route";
 import {ServicesComponent} from "./services/services.component";
 import {DesignComponent} from "./services/design/design.component";
 import {CodingComponent} from "./services/coding/coding.component";
 import {DeployComponent} from "./services/deploy/deploy.component";
 
 
-const routes: Routes = [ home, logo, projects, about,
+const routes: Routes = [ home, logo, projects, about, contractus,
   {path: 'services', component: ServicesComponent,
   children: [
     {path: 'design', component: DesignComponent},

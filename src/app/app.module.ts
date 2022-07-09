@@ -12,6 +12,7 @@ import { CodingComponent } from './services/coding/coding.component';
 import { DeployComponent } from './services/deploy/deploy.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AboutComponent } from './about/about.component';
+import { ContractUsComponent } from './contract-us/contract-us.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { AboutComponent } from './about/about.component';
     DeployComponent,
     ProjectsComponent,
     AboutComponent,
+    ContractUsComponent,
   ],
   imports: [
     BrowserModule,
