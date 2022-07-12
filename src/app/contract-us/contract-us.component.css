@@ -7,7 +7,7 @@
 
 .form {
   position: absolute;
-  background-color: #24252a;
+  background-color: #15172b;
   border-radius: 20px;
   box-sizing: border-box;
   height: 500px;
@@ -61,7 +61,7 @@
 }
 
 .cut {
-  background-color: #24252a;
+  background-color: #15172b;
   border-radius: 10px;
   height: 20px;
   left: 20px;
