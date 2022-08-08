@@ -3,7 +3,7 @@
 .content-left{
   max-height: 400px;
   position: absolute;
-  top: 100%;
+  top: 25%;
   width: 50%;
   height: 45%;
 }
@@ -25,7 +25,7 @@
 .content{
   max-height: 400px;
   position: absolute;
-  top: 100%;
+  top: 25%;
   left: 48%;
   width: 50%;
   height: 45%;
